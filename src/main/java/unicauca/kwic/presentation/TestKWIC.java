@@ -40,7 +40,6 @@ public class TestKWIC {
         for (int i = 0; i< objSorter.getLstSentences().size(); i++) {
             System.out.println(" " + objSorter.getLstSentences().get(i).getSentence());
         }
-        //estoy desde el devolopment 
     }
     
 }

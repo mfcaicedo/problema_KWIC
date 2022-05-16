@@ -64,29 +64,5 @@ public class Sorter {
         if(j+1 < der){
             sort(lstSentences, j+1, der);
         }
-        /**
-         * def quicksort(lista_notas, izq, der):
-        pivote = lista_notas[izq] # tomamos primer elemento como pivote
-        i = izq                   # i realiza la busqueda de izquierda a derecha
-        j = der                   # j realiza la búsqueda de derecha a izquierda
-        aux = 0
-
-        while(i < j):                                         # Mientras no se crucen las búsquedas
-            while(lista_notas[i] >= pivote and i < j): i += 1 # Busca elemento mayor que el pivote
-            while(lista_notas[j] < pivote): j -= 1            # Busca elemento menor que el pivote 
-            if(i < j):                                        # si no se han cruzado
-                aux = lista_notas[i]                          # los intercambia
-                lista_notas[i] = lista_notas[j]
-                lista_notas[j] = aux
-
-        lista_notas[izq] = lista_notas[j]      # Se coloca el pivote en su lugar de forma que tendremos
-        lista_notas[j] = pivote                # los menores a su izquierda y los mayores a su derecha
-
-        if(izq < j-1):
-            quicksort(lista_notas, izq, j-1)   # ordenamos subarray izquierdo 
-        if(j+1 < der):                         
-            quicksort(lista_notas, j+1, der)   # ordenamos subarray derecho 
-         */ 
-        
     }
 }

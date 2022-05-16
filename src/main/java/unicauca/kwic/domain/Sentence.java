@@ -27,7 +27,6 @@ public class Sentence {
     }
     /**
      * Getters and setters 
-     * @return 
      */
     public String getSentence(){
         return sentence;
@@ -66,17 +65,6 @@ public class Sentence {
         }
  
         return sentence;
-    }
-    /**
-     * Pruebes 
-     */
-    public static void main(String[] args){
-        String sentence; 
-        Sentence  objS  = new Sentence("Hello World Caicedo");
-        
-        sentence = objS.shift();
-        System.out.println("Sentencia: " + sentence);
-        
     }
     
 }
